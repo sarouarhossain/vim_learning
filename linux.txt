@@ -1,0 +1,4 @@
+man ls -> manual of ls command
+ls -F -> format shoho show korbe
+ls -F > text.txt -> file r nam gula text.txt file save korbe
+ 
