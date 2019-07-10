@@ -1,0 +1,48 @@
+-> vim file_name [notun file khular jonno]
+-> :w [save a file]
+-> :q [quit a file]
+-> :wq [save and quite]
+-> :q! [quit without saving]
+-> ZZ [save and exit, if something edit or not. after pressing ESC]
+-> :w file_name [save a copy in the filename]
+
+-> Esc [normal mode]
+-> : [command mode]
+-> i [insert mode]
+-> v [visual mode]
+
+visula mode
+------------
+y -> copy section
+p -> pase
+d -> delete
+
+editing
+-------
+i -> insert mode
+o -> insert new line bellow
+O -> insert new line above
+I -> insert at the begging of line
+A -> insert at the end of line
+x -> del a character
+dd -> delete a line
+2dd -> delete 2 lines
+5x -> delete 5 characters
+dG -> delete from cursor to end of the file
+d$ -> delete from cursor to end of line
+dgg -> delete from cursor to beginning of life
+yy -> copy a line
+
+navigation
+----------
+gg -> top of the file
+G -> bottom of the file
+:set number -> line number
+:set nonumber -> remove line number
+:5 -> move to line number
+
+
+extra
+------
+u -> undo
+Ctrl + r -> redo
